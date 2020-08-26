@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Dazza's BASH template 26/08/2020
 
 # LOGS:
@@ -124,7 +124,7 @@ GLOBAL_SYSLOG_LEVEL=7  # range from 0 to 7 to mute messages
 
 
 # Call the main loop (THIS IS THE REAL MAIN LOOP)
-d_info "PID is $$"
+d_debug "PID is $$"
 d_debug "Running by $0"
 d_debug "Number of args $#"
 d_debug "Non-Iterable args: ${*}"
